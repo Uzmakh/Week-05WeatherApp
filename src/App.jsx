@@ -8,7 +8,7 @@ function App() {
     <>
     <div className="container">
     <h1>Weather App</h1>
-    <Weather defaultCity="Berlin"/>
+    <Weather defaultCity="New York"/>
     <footer>
     <p>
       open-source code on <a href="https://github.com/Uzmakh/sheCodesReact-Weather-App">GitHub</a> by Uzma Khan and hosted on <a href="https://ajax-searchengine.netlify.app/">Netlify</a>
