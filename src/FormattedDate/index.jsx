@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function FormattedDate(props) {
+  const [weatherData, setWeatherData] = useState(false);
     console.log(props.date)
     let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
