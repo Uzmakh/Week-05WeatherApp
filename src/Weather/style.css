@@ -3,16 +3,17 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  padding: 10px 30px;
+  padding: 15px 35px;
   border-radius: 15px;
 }
 .weather {
   border: 2px solid grey;
-  padding: 25px;
+  padding: 25px 25px 0;
   margin: 0px;
   border-radius: 15px;
 }
 .weather h3 {
+    /* border: 2px solid grey; */
   margin-top: 15px;
 }
 .weather ul {
@@ -30,7 +31,7 @@
 .weather .temperature {
   color: #626a80;
   /* display: inline-block;  */
-  vertical-align: top;
+  /* vertical-align: top; */
   font-family: "Noto Sans", sans-serif;
   font-size: 48px;
   font-weight: 400;
@@ -47,5 +48,6 @@
   vertical-align: top;
 }
 .col-6 img {
-  margin: 5px;
+  /* border: 2px solid red; */
+  margin: 5px 0px;
 }
