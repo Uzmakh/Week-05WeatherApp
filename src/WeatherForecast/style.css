@@ -1,0 +1,12 @@
+.forecast{
+    border: 1px solid red;
+    text-align: center;
+}
+
+ .forecast-temperature-min{
+    opacity: 0.6;
+margin-left: 8px;
+}
+.forecast img{
+    width: 65px;
+}
