@@ -13,6 +13,7 @@ function Weather(props) {
     console.log(response.data)
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
@@ -25,7 +26,7 @@ function Weather(props) {
   }
 
   function search(response) {
-    let apiKey = "1a67790b1c6fa4780ab9cccbea9d66b6"
+    let apiKey = "53f3bc1f5d348c44be3e3754c7185573"
     // let city = "New York";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
 
@@ -67,7 +68,7 @@ function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast data={weatherData}/>
+        <WeatherForecast coordinates={weatherData.coordinates}/>
       </div>
     )
   } else {
