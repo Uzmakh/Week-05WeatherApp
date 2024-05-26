@@ -16,11 +16,11 @@ export default function WeatherForecast(props) {
     setForecast(response.data.daily)
     setLoaded(true)
   }
-  console.log(props)
+  // console.log(props)
 
   // conditional rendering
   if (loaded) {
-    console.log(forecast)
+    // console.log(forecast)
     return (
       <div className="forecast">
         <div className="row">
@@ -30,11 +30,12 @@ export default function WeatherForecast(props) {
                 <div className="col" key={index}>
                   <ForecastDay data={dailyForecast} />
                 </div>
-              )
+              );
+           
           })}
         </div>
       </div>
-    )
+    );
   } else {
     let apiKey = "53f3bc1f5d348c44be3e3754c7185573"
     let latitude = props.coordinates.lat
