@@ -20,7 +20,7 @@ export default function WeatherForecast(props) {
 
   // conditional rendering
   if (loaded) {
-    // console.log(forecast)
+    console.log(forecast)
     return (
       <div className="forecast">
         <div className="row">
