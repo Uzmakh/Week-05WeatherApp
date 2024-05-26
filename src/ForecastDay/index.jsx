@@ -20,10 +20,15 @@ export default function ForecastDay(props) {
     <>
       <div className="forecast-day">{day()}</div>
 
-      <img
+      {/* <img
         src={props.data.weather[0].icon}
         alt={props.data.weather[0].description}
-      />
+      /> */}
+
+<img
+  src={`https://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`}
+  alt={props.data.weather[0].description}
+/>
 
       <div className="forecast-temperatures">
         <span className="forecast-temperature-max">{maxTemperature()}</span>
