@@ -1,10 +1,7 @@
-.WeatherTemperature{
-    /* border: 2px solid red; */
-    display:inline-block;
-    position: relative;
-    bottom: 25px;
-   left: 10px;
-}
-.WeatherTemperature .span a{
-text-decoration: none;
-}
+ .WeatherTemperature{
+     /* border: 2px solid red;  */
+    display: flex;
+   /* justify-content: center;
+   align-items: center; */
+   width: 200px;
+} 

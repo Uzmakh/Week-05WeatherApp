@@ -5,9 +5,15 @@
 }
 .weatherinfo .row {
     /* border: 2px solid red; */
-    /* display: flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start; */
+    
     
 
+}
+.weatherinfo .row .col-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
