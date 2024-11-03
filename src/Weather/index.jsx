@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React, { useState } from "react"
 import WeatherInfo from "../WeatherInfo"
 import WeatherForecast from "../WeatherForecast"
@@ -78,4 +80,4 @@ function Weather(props) {
   }
 }
 
-export default Weather
+export default Weather;
